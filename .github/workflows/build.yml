@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [gts10fe, a56x]
+        target: [gts10fe, a35x]
 
     steps:
       - name: Checkout repo
